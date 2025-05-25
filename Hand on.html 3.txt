@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Productivity with Office 2010</title>
+    <link href="body {.css" rel="stylesheet" type="text/css">
+<body>
+    <h1>Office Productivity with Office 2010</h1>
+    <p>This book features four applications: 
+        <ul>
+            <li>MS Word</li>
+            <li>MS Excel</li>
+            <li>MS PowerPoint</li>
+            <li>MS Outlook</li>
+        </ul> 
+    </p>
+    <p>It aims to develop core computer technology skills such as: </p>
+    <ul>
+        <li>PC operation</li>
+        <li>Word processing</li>
+        <li>Spreadsheet management</li>
+        <li>Presentation design</li>
+        <li>Schedule and contact organization</li>
+    </ul>
+</body>
+</html>

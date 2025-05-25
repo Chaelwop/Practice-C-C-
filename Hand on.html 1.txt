@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jemma Inc</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 20px;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		h1 {
+			color: #00698f;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Jemma Inc</h1>
+	<p>Jemma Inc is passionate about technology. We believe in making essential computer education and applications accessible to everyone. It's the basic philosophy on which the company is founded and that is why Jemma Inc continues to be the leading solution provider for IT education.</p>
+</body>
+</html>

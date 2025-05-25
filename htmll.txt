@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 1em;
+			text-align: right;
+		}
+		
+		.back-button {
+			background-color: #444;
+			color: #fff;
+			border: none;
+			padding: 0.5em 1em;
+			cursor: pointer;
+		}
+		
+		.back-button:hover {
+			background-color: #555;
+		}
+		
+		.profile-container {
+			max-width: 800px;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.profile-info {
+			margin-bottom: 20px;
+		}
+		
+		.profile-info p {
+			margin-bottom: 10px;
+		}
+		
+		.profile-info span {
+			font-weight: bold;
+		}
+		
+		.stats-container {
+			margin-top: 20px;
+		}
+		
+		.stats-container h2 {
+			margin-top: 0;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: left;
+		}
+		
+		th {
+			background-color: #f0f0f0;
+		}
+		
+		tbody tr:nth-child(even) {
+			background-color: #f9f9f9;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<button class="back-button">Back</button>
+	</header>
+	<main>
+		<section class="profile-container">
+			<h1>Profile</h1>
+			<div class="profile-info">
+				<p><span>Name:</span> Michael</p>
+				<p><span>Last Name:</span> VeraCruz</p>
+				<p><span>Team Name:</span> Ambot unsa</p>
+				<p><span>Age:</span> 25</p>
+				<p><span>Gender:</span> Male pero minsan ambot</p>
+			</div>
+			<div class="stats-container">
+				<h2>Table Tennis Tournament Stats</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Tournament</th>
+							<th>Wins</th>
+							<th>Losses</th>
+							<th>Win Rate</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>ITTF World Championships</td>
+							<td>10</td>
+							<td>5</td>
+							<td>66.67%</td>
+						</tr>
+						<tr>
+							<td>Asian Games</td>
+							<td>8</td>
+							<td>3</td>
+							<td>72.73%</td>
+						</tr>
+						<tr>
+							<td>National Championships</td>
+							<td>15</td>
+							<td>2</td>
+							<td>88.24%</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
